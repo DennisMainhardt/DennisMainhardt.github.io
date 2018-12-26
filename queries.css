@@ -1,0 +1,235 @@
+@media only screen and (max-width: 1890px) {
+    .text h1 {
+        font-size: 60px;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 6px;
+    }
+
+    .text p {
+        text-transform: uppercase;
+        letter-spacing: 13px;
+        color: rgb(235, 235, 235);
+        margin-bottom: 80px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1330px) {
+    .text h1 {
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 6px;
+    }
+
+    .text p {
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        color: rgb(235, 235, 235);
+        margin-bottom: 40px;
+    }
+
+    .text a {
+        font-size: 12px;
+        text-decoration: none;
+        padding: 20px 40px;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.801);
+        color: #333;
+        transition: all .3s;
+    }
+}
+
+
+@media only screen and (max-width: 1138px) {
+    .text h1 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 6px;
+    }
+
+    .text p {
+        font-size: 8px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: rgb(235, 235, 235);
+        margin-bottom: 15px;
+    }
+
+    .text a {
+        font-weight: 100;
+        font-size: 8px;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.801);
+        color: #333;
+        transition: all .3s;
+    }
+
+    .star-text {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    div.item {
+        position: relative;
+        float: left;
+        overflow: hidden;
+        margin: 10px 1%;
+        min-width: 660px;
+
+        width: 100%;
+
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    }
+
+    div.item * {
+        box-sizing: border-box;
+    }
+
+    div.item img {
+        max-width: 100%;
+        vertical-align: top;
+        height: 420px;
+    }
+
+    div.item i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 50%;
+        font-size: 34px;
+        color: #000000;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        background: #ffffff;
+    }
+
+    div.item a {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+    }
+
+    div.item:hover img {
+        opacity: 0.3;
+        filter: grayscale(100%);
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    div.item {
+        position: relative;
+        float: left;
+        overflow: hidden;
+        margin: 10px 1%;
+        min-width: 500px;
+        max-width: 0px;
+        width: 100%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    }
+
+    div.item img {
+        max-width: 100%;
+        vertical-align: top;
+        height: 300px;
+    }
+
+    .about {
+        padding: 50px 0;
+    }
+
+}
+
+@media only screen and (max-width: 820px) {
+    .about {
+        padding: 50px 0;
+    }
+
+    div.item {
+        position: relative;
+        float: left;
+        overflow: hidden;
+        margin: 10px 1%;
+        min-width: 500px;
+        max-width: 0px;
+        width: 100%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    }
+
+    div.item img {
+        max-width: 100%;
+        vertical-align: top;
+        height: 300px;
+    }
+}
+
+/* Small phone: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .text h1 {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+
+    .text p {
+        font-size: 8px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: rgb(235, 235, 235);
+        margin-bottom: 8px;
+    }
+
+    .text a {
+        font-weight: 100;
+        font-size: 10px;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.801);
+        color: #333;
+        transition: all .3s;
+    }
+
+    .about {
+        padding: 50px 0;
+    }
+
+    .mail {
+        font-size: 25px;
+    }
+
+    div.item {
+        position: relative;
+        float: left;
+        overflow: hidden;
+        margin: 10px 1%;
+        min-width: 355px;
+        max-width: 0px;
+        width: 100%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    }
+
+    div.item img {
+        max-width: 100%;
+        vertical-align: top;
+        height: 230px;
+    }
+}
